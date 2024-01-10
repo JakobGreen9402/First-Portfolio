@@ -1,0 +1,198 @@
+.jumbotron{
+background: url("images/jumbotron.jpeg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:340px;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+.page-scroll{
+  height:1000px;
+}
+
+.btn-outline-danger{
+  color:white;
+  border-color:white;
+  border-radius:0px;
+  font-weight:100;
+  margin-top:20px;
+}
+.display-2 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.lead{
+  font-family: "Courier New", Courier, monospace;
+  font-weight:100;
+  margin-top:-10px;
+  color: white;
+}
+
+.content {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight:bold;
+  margin-top: 15px;
+}
+.row {
+  margin: 5px;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+img {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+div p {
+  text-align: center;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+hr {
+  width: 50%;
+  border-top: 2px solid black;
+}
+.insidecontent {
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-size: 1rem;
+}
+#jumbocontent {
+  text-align:center;
+  font-weight:bold;
+}
+#nav {
+  position: absolute;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+#nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#nav ul li a {
+  text-decoration: none;
+  padding: 10px 60px;
+  display: block;
+  color: black;
+  text-align: center;
+}
+.cntct {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+form {
+  padding: 20px;
+  margin: 60px;
+/*  background-color: #E3E6DC;
+  opacity: 0.5;
+  filter: alpha(opacity=50); */
+  width: 100%;
+  color: black;
+}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
